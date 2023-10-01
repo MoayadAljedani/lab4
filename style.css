@@ -1,0 +1,69 @@
+
+.h1 {
+  text-align: center;
+  background-color: rgb(199, 255, 255);
+  width: 500px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+  width: 500px;
+  margin: 0 auto; 
+  transition: margin 0.4s ease-in-out;
+}
+.h1:hover {
+  margin-bottom: 20px; 
+}
+
+.label-input-container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: azure;
+  width: 500px;
+  margin: 0 auto; 
+}
+input {
+  font-size: 20px;
+    width: 100%; 
+    height: 40px;
+    margin: 0; 
+    padding: 5px; 
+    box-sizing: border-box; 
+    border-radius: 20px;
+    transition: height 0.3s ease-in-out;
+    transition: border-radius 0.3s ease-in-out;
+
+  }
+  input:hover{
+    background-color: rgb(223, 240, 255) ;
+    height:60px ;
+    border-radius:10px;
+  }
+ 
+#comment{
+width: 400px;
+height: 150px;
+border-radius: 20px;
+transition: height 0.3s ease-in-out;
+transition: border-radius 0.3s ease-in-out;
+
+}#comment:hover{
+  height:190px ;
+  background-color: rgb(223, 240, 255);
+  border-radius:10px;
+
+  }
+#submit{
+height: 40px;
+border-radius: 10px;
+transition: height 0.3s ease-in-out;
+transition: border-radius 0.3s ease-in-out;
+
+}
+#submit:hover{
+    background-color:  rgb(223, 240, 255);
+    height: 70px;
+    border-radius:5px;
+}
+
